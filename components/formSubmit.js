@@ -3,9 +3,9 @@
 import React from "react";
 
 import { useFormStatus } from "react-dom";
+
 const FormSubmit = () => {
   const stauts = useFormStatus();
-  console.log(stauts);
 
   if (stauts.pending) {
     return <p>Loading Sumbit...</p>;
