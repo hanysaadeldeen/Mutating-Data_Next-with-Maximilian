@@ -195,6 +195,7 @@ main {
   height: 1.5rem;
   fill: transparent;
   stroke: #e32195;
+  cursor: pointer;
 }
 
 .like-button:hover svg,
